@@ -1,5 +1,5 @@
 
-## Exploratory Data Analysis of London Underground Exit Data
+## Exploratory Data Analysis and Regression Model on IMDB Movie Data
 
 ### What is Exploratory Data Analysis?
 ---------------------------------------
@@ -16,23 +16,33 @@ This involves but is not limited to:
 ### Table of Contents
 -----------------------
 * Summary of my Project
-* Required libraries
+* Required Libraries
 * Data
 
 ### My Project
 -----------------
-In this [notebook](https://github.com/tadepoju/python-ldn-underground-eda/blob/readme-edits/London%20Underground%20Exploratory%20Data%20Analysis.ipynb) the data I used relates to London Undergound exit data to summarise the key characteristics of the dataset 
-and to evaluate any patterns and / or a relationship between Morning and Evening travel peak periods.
+In this [notebook](https://github.com/tadepoju/python-ldn-underground-eda/blob/readme-edits/London%20Underground%20Exploratory%20Data%20Analysis.ipynb) the data I used relates to IMDB Movie Data data to summarise the key characteristics of the dataset 
+and to produce a regression model to predict the Gross for a film based on 
+specific predictor variables.
 
 
-| Period          | Hours Included | 
-|:--------------- |:---------------- | 
-|  Early          | H05, H06  | 
-| ***AMPeak***     | ***H07, H08, H09*** | 
-|  Interpeak      | H10, H11, H12, H13, H14, H15 | 
-|  ***PMPeak***     | ***H16, H17, H18*** | 
-|  Evening        | H19, H20, H21 | 
-|  Late           | H22, H23, H00, H01 | 
+Dataset is from [kaggle](https://www.kaggle.com/harshitshankhdhar/imdb-dataset-of-top-1000-movies-and-tv-shows)
+
+|Variable | Description |
+|:------- |:----------- |
+|Poster_Link | Link of the poster that imdb using |
+|Series_Title | Name of the movie |
+|Released_Year | Year at which that movie released |
+|Certificate | Certificate earned by that movie |
+|Runtime | Total runtime of the movie |
+|Genre | Genre of the movie |
+|IMDB_Rating | Rating of the movie at IMDB site |
+|Overview | Summary of movie |
+|Meta_score | Score earned by the movie |
+|Director | Name of the Director |
+|Star1, Star2, Star3, Star4 | Name of the Stars in the movie |
+|No_of_votes | Total number of votes |
+|Gross | Money earned by that movie |
 
 ### Required Libraries
 ------------------------
@@ -41,9 +51,9 @@ popular **Python** libraries:
 * Pandas
 * NumPy
 * Matplotlib
-* Statsmodels
+* Seaborn
+* Sklearn
 
 ### Data
 ----------
-The dataset used can be found [here](https://github.com/tadepoju/python-ldn-underground-eda/blob/readme-edits/hourlyExits.csv) for those that are interested you 
-can conduct similar analysis using the London Undeground Entry data [here](https://github.com/tadepoju/python-ldn-underground-eda/blob/readme-edits/hourlyEntries.csv).
+The dataset used can be found [here](https://github.com/tadepoju/python-ldn-underground-eda/blob/readme-edits/hourlyExits.csv) 
