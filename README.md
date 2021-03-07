@@ -13,6 +13,13 @@ This involves but is not limited to:
 * Understanding the relationship(s) between variables
 * Providing valuable insights relating to the data
 
+### What is Linear Regression?
+---------------------------------------
+Linear Regression analysis is a powerful statistical process to help find the 
+relationship between variables within a dataset, with the key focus being on relationships 
+between the independent variables (predictors) and a dependent variable (outcome). 
+It can be used to build models for inference or prediction. 
+
 ### Table of Contents
 -----------------------
 * Summary of my Project
@@ -21,7 +28,7 @@ This involves but is not limited to:
 
 ### My Project
 -----------------
-In this [notebook](https://github.com/tadepoju/python-ldn-underground-eda/blob/readme-edits/London%20Underground%20Exploratory%20Data%20Analysis.ipynb) the data I used relates to IMDB Movie Data data to summarise the key characteristics of the dataset 
+In this [notebook](https://github.com/tadepoju/imdb-movie-regression/blob/Edit-data/IMDB%20Movie%20Analysis.ipynb) the data I used relates to IMDB Movie Data data to summarise the key characteristics of the dataset 
 and to produce a regression model to predict the Gross for a film based on 
 specific predictor variables.
 
@@ -56,4 +63,5 @@ popular **Python** libraries:
 
 ### Data
 ----------
-The dataset used can be found [here](https://github.com/tadepoju/python-ldn-underground-eda/blob/readme-edits/hourlyExits.csv) 
+The dataset used can be found [here](https://github.com/tadepoju/imdb-movie-regression/blob/Edit-data/imdb_top_1000.csv)
+ 
