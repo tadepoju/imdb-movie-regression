@@ -51,7 +51,7 @@ Dataset is from [kaggle](https://www.kaggle.com/harshitshankhdhar/imdb-dataset-o
 |No_of_votes | Total number of votes |
 |Gross | Money earned by that movie |
 
-### Required Libraries
+### Libraries
 ------------------------
 In this notebook I have conducted my analysis using a few
 popular **Python** libraries:
